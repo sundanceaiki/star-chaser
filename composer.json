@@ -6,6 +6,9 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
+        "sonata-project/admin-bundle": "3.x@dev",
+        "sonata-project/doctrine-orm-admin-bundle": "3.x@dev",
+        "sonata-project/user-bundle": "^4.5",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "3.4.*",
         "symfony/console": "3.4.*",
@@ -27,6 +30,7 @@
         "symfony/yaml": "3.4.*"
     },
     "require-dev": {
+        "sonata-project/easy-extends-bundle": "^2.5",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
