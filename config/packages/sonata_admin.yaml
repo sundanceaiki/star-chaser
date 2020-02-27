@@ -1,8 +1,11 @@
 sonata_admin:
     title: 'Star Chaser'
+    title_logo: "resources\\img\\logo.png"
     dashboard:
         blocks:
             - { type: sonata.admin.block.admin_list, position: left }
+    assets:
+        extra_stylesheets: ["resources\\css\\layout.css"]
 
 sonata_block:
     blocks:
