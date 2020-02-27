@@ -1,5 +1,11 @@
 sonata_user:
   class:
     user: App\Application\Sonata\UserBundle\Entity\User
+#    user: App\Application\Sonata\UserBundle\Admin\UserAdmin
     group: App\Application\Sonata\UserBundle\Entity\Group
   manager_type: orm # can be orm or mongodb
+  admin:                  # Admin Classes
+    user:
+      class:          App\Application\Sonata\UserBundle\Admin\UserAdmin
+      #controller:     ApplicationSonataUserBundle:CURD
+      translation:    SonataUserBundle
